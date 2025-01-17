@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>PictoSpace</title>
+    <link href="./style/navbar.css" rel="stylesheet" type="text/css" />
+    <link href="./style/style.css" rel="stylesheet" type="text/css" />
+    <link href="./style/registration.css" rel="stylesheet" type="text/css" />
+    <script type="module" src="./js/index.mjs" defer></script>
+  </head>
+  <body>
+    <div id="navbar">
+      <div class="frame">
+        <div class="title">PictoSpace</div>
+        <div class="right" id="navbar_loggedin">
+          <button class="transparent_btn" id="to_mygallery">My Gallery</button>
+          <button class="transparent_btn" id="to_membergallery">Member Gallery</button>
+          <hr>
+          <div class="element_description">
+            <div class="form_input_icon" id="author_icon"></div>
+            <div class="text_content" id="navbar_username"></div>
+          </div>
+          <div class="form_buttons">
+            <a class="btn" id="signout" href="/signout/">Sign Out</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div id="error_box"></div>
+
+      <form class="access" id="sign_up">
+        <div class="left">
+          <div class="description">
+            <div class="title">Sign Up</div>
+            <div class="text">Welcome! Create your credentials.</div>
+          </div>
+          <div class="form_element">
+            <div class="form_input_icon" id="author_icon"></div>
+            <input type="text" class="form_input" id="signup_username" placeholder="Username" name="username" required/>  
+          </div>
+          <div class="form_element">
+            <div class="form_input_icon" id="password_icon"></div>
+            <input type="password" class="form_input" id="signup_password" placeholder="Password" name="password" required/>  
+          </div>
+          <div class="form_buttons">
+            <input class="btn" type="submit" value="Sign Up"/>
+          </div>
+        </div>
+        <div class="right">
+          <div class="text">Already have an account?</div>
+          <div class="form_buttons">
+            <button class="btn" type="button" id="to_login">Login</a>
+          </div>
+        </div>
+      </form>
+
+      <form class="access" id="login">
+        <div class="left">
+          <div class="description">
+            <div class="title">Login</div>
+            <div class="text">Welcome back! Enter your credentials to sign in.</div>
+    
+          </div>
+          <div class="form_element">
+            <div class="form_input_icon" id="author_icon"></div>
+            <input type="text" class="form_input" id="login_username" placeholder="Username" name="username" required/>  
+          </div>
+          <div class="form_element">
+            <div class="form_input_icon" id="password_icon"></div>
+            <input type="password" class="form_input" id="login_password" placeholder="Password" name="password" required/>  
+          </div>
+          <div class="form_buttons">
+            <input class="btn" type="submit" value="Login"/>
+          </div>
+        </div>
+        <div class="right">
+          <div class="text">Don’t have an account yet?</div>
+          <div class="form_buttons">
+            <button class="btn" type="button" id="to_signup">Sign Up</a>
+          </div>
+        </div>
+      </form>
+      
+      <div class="container" id="member_gallery">
+        <div class="section">
+            <div class="comment">
+              <div class="form_title">Member Gallery</div>
+              <div class="image_options">
+                <button class="left_rotate" id="prev_members" type="button"></button>
+                <button class="right_rotate" id="next_members" type="button"></button>    
+              </div>
+            </div>
+            <div id="member_image_section">
+            </div>
+        </div>
+      </div>
+
+      <button class="container icon_btn caret_icon" id="toggle_show" type="button"></button>
+
+      <form class="container" id="add_image">
+        <div class="form_title">Upload Files</div>
+        <div class="form_element">
+          <div class="form_input_icon" id="title_icon"></div>
+          <input type="text" class="form_input" id="image_title" placeholder="Image Title" name="image_title" required/>  
+        </div>
+        <div class="form_element">
+          <div class="form_input_icon" id="upload_icon"></div>
+            <input type="file" id="image_file" class="file_wrapper" name="picture" accept="image/*" />
+        </div>
+        <div class="form_buttons">
+          <button class="icon_btn caret_icon reflect_rotate" id="toggle_hide" type="button"></button>
+          <input class="btn" type="submit" value="Upload"/>
+        </div>
+      </form>
+
+      <div class="container" id="gallery">
+          <div class="section">
+              <div class="form_title" id="gallery_heading"></div>
+              <div id="image_section">
+              </div>
+          </div>
+          
+          <form class="section" id="comment_form">
+          </form>
+
+          <div class="section" id="comments">
+          </div>
+      </div>
+
+      <footer>
+        <a class="credits" href="./credits.html">Credits</a>
+      </footer>
+    </div>
+  </body>
+</html>
