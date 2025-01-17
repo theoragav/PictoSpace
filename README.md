@@ -4,6 +4,16 @@
 
 PictoSpace is a dynamic web gallery platform where users can upload, share, and comment on images within personal galleries. Drawing inspiration from popular social platforms like Instagram and Google Photos, this project focuses on enabling secure user authentication, authorization, and gallery management. With a user-friendly interface and a robust backend, PictoSpace allows individuals to create their own galleries, interact with others’ content, and manage their own media.
 
+![1](https://github.com/user-attachments/assets/d6047e3f-b5ff-4249-8eed-d3b828c19efb)
+![3](https://github.com/user-attachments/assets/cdbc4a0a-538f-4729-83bc-c284d0b6a4a6)
+![2](https://github.com/user-attachments/assets/180ace81-e989-4388-9b56-148d9962b764)
+![4](https://github.com/user-attachments/assets/5bfd0f05-8411-45f7-89a1-a7cd065f6782)
+![4 5](https://github.com/user-attachments/assets/06ab9d7a-23fb-47fc-aa38-dcce02e2a998)
+![5](https://github.com/user-attachments/assets/78254527-a020-4931-bb9f-881c22f680ad)
+![6](https://github.com/user-attachments/assets/4ce7ed26-1bf3-43a4-92bb-d6e35b85cd08)
+![7](https://github.com/user-attachments/assets/dace938a-2446-4a46-87ce-9ea51ddafe3d)
+
+
 ## Features
 
 - **User Authentication & Authorization**: 
